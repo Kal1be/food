@@ -4,8 +4,8 @@ import {getPost,postUser} from "../controllers/userController.js"
 const router = express.Router()
 
 
-router.get("/api/user",getPost)
+router.get("/",getPost)
 
-router.post("/api/user",postUser)
+router.post("/",postUser)
 
 export default router
